@@ -1,0 +1,10 @@
+{
+  "name": "uni-next-nx-ws-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/uni-next-nx-ws-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["uni-next-nx-ws"],
+  "// targets": "to see all targets run: nx show project uni-next-nx-ws-e2e --web",
+  "targets": {}
+}
