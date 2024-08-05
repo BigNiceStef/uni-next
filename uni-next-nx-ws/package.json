@@ -3,9 +3,21 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "next build",
-    "lint": "eslint ./src",
-    "test": "node ./run-tests.js"
+    "build": "nx next:build",
+    "lint": "nx eslint:lint",
+    "test": "nx exec -- node ./run-tests.js"
+  }, 
+  "nx": {
+    "targets": {
+      "test": {
+        "cache": "true",
+        "inputs": [
+          "default",
+          "^default"
+        ],
+        "outputs": []
+      }
+    }
   },
   "private": true,
   "dependencies": {
