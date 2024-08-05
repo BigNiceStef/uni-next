@@ -4,7 +4,7 @@
 			"path": "."
 		},
 		{
-			"path": "client-app-template"
+			"path": "uni-next-nx-ws"
 		}
 	],
 	"settings": {}
