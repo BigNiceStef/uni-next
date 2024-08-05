@@ -2,7 +2,11 @@
   "name": "@uni-next-nx-ws/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "next build",
+    "lint": "eslint ./src",
+    "test": "node ./run-tests.js"
+  },
   "private": true,
   "dependencies": {
     "@expo/metro-config": "~0.18.1",
